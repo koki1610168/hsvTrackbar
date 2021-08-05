@@ -27,8 +27,12 @@ git clone https://github.com/koki1610168/hsvTrackbar.git
 >## Usage
 Run main.py
 ```
-python main.py
+python main.py <an absolute path of an image>
 ```
-After you run the above file, you will see two panes pop up on your window. One pane with trackbars is where you can play around with parameters. The other one is the gray scaled result.
+### Example
+```
+python main.py /home/aaa/bbb/ccc.png
+```
+After you run the above code, you will see two panes pop up on your window. One pane with trackbars is where you can play around with parameters. The other one is the gray scaled result.
 
 **Congratulations!**

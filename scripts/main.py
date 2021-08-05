@@ -1,13 +1,14 @@
 import cv2
 import numpy as np
+import sys
 
 
 def nothing(x):
     pass
 
 
-img = cv2.imread("../data/image_1.png")
-img = cv2.resize(img, (640, 350))
+img = cv2.imread(sys.argv[1])
+img = cv2.resize(img, (960, 525))
 # Create a black image, a window
 cv2.namedWindow('image')
 
